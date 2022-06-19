@@ -24,7 +24,7 @@ And the total number of models trained for each classifier is shown in the table
 
 
 ## Model Interpretation
-SHAP (Shapely values) is used to measure the importance of each feature and return the top `n` features that have the highest impact on the models. SHAP also provides feature importance, but it does so by creating a pseudo data based on some of the training and test datasets. By following those steps, the importance of each feature can be quantified. The following plot shows the SHAP values computed over all task ids for both training and test datasets. Running the model can take a long time, so the model weights can be downloaded from [this link](https://drive.google.com/file/d/1AIfB3vJbeuspk3Q1dkVRn98Ft1Wz4hyk/view?usp=sharing) and save to `data/` directory. 
+SHAP (Shapely values) is used to measure the importance of each feature and return the top `n` features that have the highest impact on the models. SHAP also provides feature importance, but it does so by creating a pseudo data based on some of the training and test datasets. By following those steps, the importance of each feature can be quantified. The following plot shows the SHAP values computed harmonic notes in both training and test datasets. Running the model can take a long time, so the model weights can be downloaded from [this link](https://drive.google.com/file/d/1AIfB3vJbeuspk3Q1dkVRn98Ft1Wz4hyk/view?usp=sharing) and save to `data/` directory. 
 
 ![image](images/SHAP.png)
 
