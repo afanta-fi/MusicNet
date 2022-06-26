@@ -16,7 +16,7 @@ Eight types of classifiers were considered. For each model, a cross-validation w
 
 The total number of models trained for each classifier is shown in the table below. 
 
-| LogisticRegression | KNeighbors | SVC | DecisionTree | RandomForest | AdaBoost | XGBoost | CatBoost |
+| LogisticRegression | KNN | SVC | DecisionTree | RandomForest | AdaBoost | XGBoost | CatBoost |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 40 | 118 | 90 | 242 | 16632 | 450 | 750 | 960 |
 
